@@ -1,0 +1,34 @@
+{
+  "howItWorks": [
+    {
+      "title": "Submit Your Licenses",
+      "description": "Start by providing details of the software licenses you no longer use. Our secure form ensures your information stays protected throughout the process."
+    },
+    {
+      "title": "Get a Valuation",
+      "description": "Our system reviews the submitted licenses and delivers a fair market valuation, typically within 24 hours. We assess demand, version, and market trends to give you the best offer."
+    },
+    {
+      "title": "Get Paid",
+      "description": "Once you accept the offer, we handle the transfer and ensure you receive your payment promptly — no delays, no complicated steps."
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Fast & Fair Valuations",
+      "description": "We combine industry knowledge and real-time data to provide accurate license valuations quickly, helping you move from estimate to payment without delays."
+    },
+    {
+      "title": "Secure Transactions",
+      "description": "SoftSell prioritizes your data’s security at every step, from submission to license transfer, ensuring compliance and peace of mind."
+    },
+    {
+      "title": "Enterprise-Ready Service",
+      "description": "Whether you're managing IT assets for a small business or a large enterprise, our platform scales to meet your organizational needs with reliability and speed."
+    },
+    {
+      "title": "Expert Support at Every Step",
+      "description": "Our dedicated support team is always ready to assist — from initial questions to post-sale support — ensuring a smooth and informed experience."
+    }
+  ]
+}
