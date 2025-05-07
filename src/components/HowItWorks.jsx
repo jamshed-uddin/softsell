@@ -3,9 +3,8 @@ import SectionTitle from "./SectionTitle";
 import { howItWorks } from "../../public/data.json";
 
 const HowItWorks = () => {
-  console.log(howItWorks);
   return (
-    <div className="min-h-screen ">
+    <div className=" ">
       <SectionTitle>How it works</SectionTitle>
 
       <div className="flex flex-col mt-10 space-y-5 lg:space-y-10">
@@ -19,7 +18,7 @@ const HowItWorks = () => {
             key={idx}
           >
             <div className="lg:w-1/2  ">
-              <h3 className="text-2xl font-semibold ">
+              <h3 className="text-xl font-semibold ">
                 <span className="italic mr-1">#</span>
                 {idx + 1}
               </h3>

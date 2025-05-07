@@ -30,5 +30,19 @@
       "title": "Expert Support at Every Step",
       "description": "Our dedicated support team is always ready to assist — from initial questions to post-sale support — ensuring a smooth and informed experience."
     }
+  ],
+  "reviews": [
+    {
+      "name": "Emily Carter",
+      "role": "IT Asset Manager",
+      "company": "Brightline Solutions",
+      "review": "SoftSell made it incredibly easy to offload our unused licenses. The valuation was fair, and the entire process was smooth and professional."
+    },
+    {
+      "name": "Raj Mehra",
+      "role": "Procurement Lead",
+      "company": "Vertex Dynamics",
+      "review": "We were able to recover significant value from software we no longer needed. SoftSell’s platform is secure, efficient, and backed by excellent support."
+    }
   ]
 }
