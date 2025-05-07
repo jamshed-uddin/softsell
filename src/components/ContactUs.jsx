@@ -71,7 +71,7 @@ const ContactUs = () => {
           {formFields.map((field) => (
             <div
               key={field.name}
-              className={`${field.type === "textarea" ? "col-span-2" : ""}`}
+              className={`${field.type === "textarea" ? "lg:col-span-2" : ""}`}
             >
               <label
                 htmlFor={field.name}
@@ -112,7 +112,7 @@ const ContactUs = () => {
             </div>
           ))}
 
-          <div className={"col-start-2 w-full flex justify-end"}>
+          <div className={"lg:col-start-2 w-full flex justify-end"}>
             <Button type="submit" className="w-1/2">
               Submit
             </Button>

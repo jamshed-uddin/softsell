@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white flex flex-col lg:flex-row justify-between py-6 text-sm mt-14">
+    <footer className="bg-black text-white flex flex-col lg:flex-row justify-between py-6  text-sm mt-14">
       <h3 className="font-bold text-xl ">SoftSell</h3>
 
       <p>
