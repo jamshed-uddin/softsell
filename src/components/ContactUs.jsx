@@ -58,7 +58,6 @@ const ContactUs = () => {
   } = useForm();
   const onSubmit = (data) => console.log(data);
 
-  console.log(watch("example"));
   return (
     <div id="contact-us" className="scroll-mt-20">
       <SectionTitle>Contact us</SectionTitle>

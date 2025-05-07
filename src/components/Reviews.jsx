@@ -14,7 +14,8 @@ const Reviews = () => {
             }`}
             key={idx}
           >
-            <div className={`bg-zinc-900 rounded-xl p-4 lg:w-1/2`}>
+            <div className={`bg-zinc-800 rounded-xl p-4 pt-12 lg:w-1/2 `}>
+              <h4 className="text-8xl  opacity-50 leading-0">"</h4>
               <p className=" text-xl leading-7 ">{item.review}</p>
 
               <div className="mt-5">
