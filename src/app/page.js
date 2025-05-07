@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import Reviews from "@/components/Reviews";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <WhyChooseUs />
+      <Reviews />
     </div>
   );
 }
