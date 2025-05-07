@@ -29,7 +29,9 @@ const NavLinks = ({ navLinksFor = "desktop", onNavItemClick }) => {
     >
       {navItems.map((item) => (
         <li key={item.name} onClick={onNavItemClick}>
-          <Link href={item.link}>{item.name}</Link>
+          <Link href={item.link} replace>
+            {item.name}
+          </Link>
         </li>
       ))}
     </ul>
