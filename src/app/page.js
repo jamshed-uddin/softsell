@@ -1,3 +1,4 @@
+import ContactUs from "@/components/ContactUs";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Reviews from "@/components/Reviews";
@@ -6,11 +7,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="space-y-10 lg:space-y-16 ">
+    <div className=" space-y-20 lg:space-y-36 ">
       <Hero />
       <HowItWorks />
       <WhyChooseUs />
       <Reviews />
+      <ContactUs />
     </div>
   );
 }

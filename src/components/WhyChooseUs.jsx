@@ -4,9 +4,9 @@ import SectionTitle from "./SectionTitle";
 
 const WhyChooseUs = () => {
   return (
-    <div>
+    <div id="why-choose-us" className="scroll-mt-20">
       <SectionTitle>Why choose us</SectionTitle>
-      <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-5">
+      <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-6">
         {whyChooseUs.map((item, idx) => (
           <div key={idx} className=" bg-zinc-900 rounded-xl p-4">
             <h2 className="text-xl font-semibold mb-2 ">{item.title}</h2>

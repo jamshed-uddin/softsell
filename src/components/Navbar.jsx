@@ -9,10 +9,18 @@ const Navbar = () => {
         SoftSell
       </Link>
       <ul className="flex justify-between items-center bg-black py-4 gap-5 mr-10">
-        <li>How it works</li>
-        <li>Why us </li>
-        <li>Testimonials </li>
-        <li>Contact</li>
+        <li>
+          <Link href={"#how-it-works"}>How it works</Link>
+        </li>
+        <li>
+          <Link href={"#why-us"}>Why us</Link>
+        </li>
+        <li>
+          <Link href={"#reviews"}>Testimonials</Link>
+        </li>
+        <li>
+          <Link href={"#contact-us"}>Contact</Link>
+        </li>
       </ul>
       <Button>Sell my lisences</Button>
     </nav>

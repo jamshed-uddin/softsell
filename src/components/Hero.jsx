@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center h-screen items-center">
+    <div className="flex flex-col justify-center h-screen items-center mb-0">
       <div className="lg:w-3/4 mx-auto text-center space-y-4">
         <h1 className="text-4xl font-bold">
           Recover Value from Idle Software Assets

@@ -4,10 +4,10 @@ import { howItWorks } from "../../public/data.json";
 
 const HowItWorks = () => {
   return (
-    <div className=" ">
+    <div className="scroll-mt-20 " id="how-it-works">
       <SectionTitle>How it works</SectionTitle>
 
-      <div className="flex flex-col mt-10 space-y-5 lg:space-y-10">
+      <div className="flex flex-col mt-14 space-y-5 lg:space-y-10">
         {howItWorks.map((item, idx) => (
           <div
             className={`flex justify-start ${
