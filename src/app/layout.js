@@ -2,6 +2,7 @@ import { IBM_Plex_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AiBot from "@/components/AiBot";
 
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -22,11 +23,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotest.className}  antialiased bg-black text-white max-w-[100rem] min-h-screen mx-auto px-2 lg:px-28`}
+        className={`${spaceGrotest.className}  antialiased bg-black text-white max-w-[100rem] min-h-screen mx-auto px-2 lg:px-28 relative`}
       >
         <Navbar />
         {children}
         <Footer />
+        <AiBot className={"fixed right-7 lg:right-10 bottom-7 lg:bottom-10"} />
       </body>
     </html>
   );
