@@ -1,16 +1,37 @@
 import aiResponse from "@/utils/aiResponse";
 
 export async function POST(request) {
-  const body = await request.json();
+  try {
+    const { userQuery } = await request.json();
 
-  console.log(body);
-
-  await aiResponse();
-
-  return new Response(
-    { message: "hello world" },
-    {
-      status: 201,
+    if (!userQuery?.trim()) {
+      return new Response(
+        JSON.stringify({
+          message: "Please provide a user query",
+        }),
+        {
+          status: 400,
+        }
+      );
     }
-  );
+
+    const response = await aiResponse(userQuery);
+
+    return new Response(
+      JSON.stringify({ sender: "assistant", content: response }),
+      {
+        status: 201,
+      }
+    );
+  } catch (error) {
+    console.log(error);
+    return new Response(
+      JSON.stringify({
+        message: "Something went wrong",
+      }),
+      {
+        status: 500,
+      }
+    );
+  }
 }

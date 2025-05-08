@@ -8,8 +8,6 @@ const aiResponse = async (userQuery) => {
   try {
     const formatedJsonData = formatData(rawJsonData);
 
-    console.log("json doc", formatedJsonData);
-
     const answerTemplate = `You are a helpful assistant for a software license marketplace.
 Use the context below to answer the question.
 
@@ -29,10 +27,10 @@ Answer: `;
 
     const response = await responseChain.invoke({
       context: formatedJsonData,
-      question: "why should i choose sell soft?",
+      question: userQuery,
     });
-
-    console.log("ai answer", response);
+    console.log("result from function", response);
+    return response;
   } catch (error) {
     throw error;
   }
