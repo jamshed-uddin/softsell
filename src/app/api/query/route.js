@@ -24,7 +24,6 @@ export async function POST(request) {
       }
     );
   } catch (error) {
-    console.log(error);
     return new Response(
       JSON.stringify({
         message: "Something went wrong",

@@ -42,13 +42,10 @@ const ChatBox = () => {
       const aiRespones = await axios.post("/api/query", {
         userQuery: userInput,
       });
-      console.log(aiRespones);
 
       setMsgToState(aiRespones?.data);
     } catch (error) {
       setError(error.response.data.message);
-      console.log(error.response.data.message);
-      console.log(error);
     } finally {
       setMessageLoading(false);
     }

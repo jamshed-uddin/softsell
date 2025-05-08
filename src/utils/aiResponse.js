@@ -29,7 +29,7 @@ Answer: `;
       context: formatedJsonData,
       question: userQuery,
     });
-    console.log("result from function", response);
+
     return response;
   } catch (error) {
     throw error;
