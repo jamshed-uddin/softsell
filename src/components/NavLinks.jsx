@@ -24,7 +24,7 @@ const NavLinks = ({ navLinksFor = "desktop", onNavItemClick }) => {
       className={`${
         navLinksFor === "desktop"
           ? "lg:flex justify-between items-center hidden bg-black py-4 gap-6 mr-10"
-          : "text-5xl font-semibold space-y-5 ml-2"
+          : "text-4xl font-semibold space-y-5 ml-2"
       }`}
     >
       {navItems.map((item) => (

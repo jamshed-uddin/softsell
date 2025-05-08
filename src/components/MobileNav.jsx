@@ -7,7 +7,7 @@ import NavLinks from "./NavLinks";
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="lg:hidden ml-3">
+    <div className="lg:hidden ml-2">
       <span
         className={`block space-y-2 cursor-pointer relative z-50 px-2`}
         onClick={() => setIsOpen(!isOpen)}
