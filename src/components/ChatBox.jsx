@@ -19,6 +19,18 @@ const ChatBox = () => {
         content: input,
       },
     ]);
+
+    try {
+      const res = await fetch("/api/query", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query: input }),
+      });
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (

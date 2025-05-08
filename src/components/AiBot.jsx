@@ -24,7 +24,7 @@ const AiBot = ({ className }) => {
           <div onClick={() => setOpenChat(true)}>
             <ChatBubbleOvalLeftEllipsisIcon className="w-9 h-9 " />
 
-            <SparklesIcon className="w-5 h-5 absolute -top-1 -right-1" />
+            <SparklesIcon className="w-5 h-5 absolute -top-1 -right-1 animate-bounce" />
           </div>
         )}
       </div>

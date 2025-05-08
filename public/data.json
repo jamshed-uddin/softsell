@@ -1,4 +1,8 @@
 {
+  "about": {
+    "name": "Soft Sell",
+    "description": "SoftSell is a trusted platform that helps organizations recover value from idle software assets by securely selling unused licenses. We streamline the process with quick valuations, secure transfers, and dedicated support, making license liquidation simple and effective."
+  },
   "howItWorks": [
     {
       "title": "Submit Your Licenses",
@@ -33,16 +37,16 @@
   ],
   "reviews": [
     {
+      "review": "SoftSell made it incredibly easy to offload our unused licenses. The valuation was fair, and the entire process was smooth and professional.",
       "name": "Emily Carter",
       "role": "IT Asset Manager",
-      "company": "Brightline Solutions",
-      "review": "SoftSell made it incredibly easy to offload our unused licenses. The valuation was fair, and the entire process was smooth and professional."
+      "company": "Brightline Solutions"
     },
     {
+      "review": "We were able to recover significant value from software we no longer needed. SoftSell’s platform is secure, efficient, and backed by excellent support.",
       "name": "Raj Mehra",
       "role": "Procurement Lead",
-      "company": "Vertex Dynamics",
-      "review": "We were able to recover significant value from software we no longer needed. SoftSell’s platform is secure, efficient, and backed by excellent support."
+      "company": "Vertex Dynamics"
     }
   ]
 }

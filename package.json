@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@heroicons/react": "^2.2.0",
+    "@langchain/core": "^0.3.55",
+    "@langchain/google-genai": "^0.2.7",
+    "langchain": "^0.3.24",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
